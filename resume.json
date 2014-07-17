@@ -1,0 +1,229 @@
+{
+  "settings": {
+    "glyphicons": false
+  },
+  "firstname": "Ryan",
+  "familyname": "McDonald",
+  "github_id": "rjmcdonald83",
+  "bio_data": {
+    "email": "rjmcdonald83 @ gmail.com",
+    "twitter": "rjmcdonald83",
+    //"website": "http://rjmcdonald83.github.io",
+    "stars": [
+      "Ruby on Rails,",
+      "Ruby,",
+      "HAML/SCSS,",
+      "JavaScript,",
+      "Git"
+    ],
+    "summary": {
+      "points": [
+        "Enthused full stack developer focused on delivering efficient solutions and giving back to the community",
+        "Specializing in Ruby on Rails, Middleman and Slicing",
+        "Background in [instructing](http://www.outwardbound.org/), managing humans and the logistical systems they love",
+        "Keen to work with highly collaborative, test-driven, community-centric teams"
+      ]
+    },
+    "github_projects": {
+      "details": [
+      {
+        "project_name": "San Diego RubyConf 2014 website",
+        "project_url": "http://www.rubyconf.org",
+        "repo": "code available on request",
+        "description": [
+          "sliced &#8680; styled &#8680; deployed &#8680; administered for the life of the conference",
+          "Built on top of and in conjunction with Conf Skeleton Application developed for [Ruby Central](http://www.rubycentral.org)"
+        ]
+      },
+      {
+        "project_name": "Chicago RailsConf 2014 website",
+        "project_url": "http://www.railsconf.com",
+        "repo": "code available on request",
+        "description": [
+          "sliced &#8680; styled &#8680; deployed &#8680; administered for the life of the conference",
+          "Hand built including script to parse the program and schedule data from json to markup"
+        ]
+      },
+      {
+        "project_name": "Rafflecopter Jobs Page Conversion",
+        "project_url": "jobs.rafflecopter.com",
+        "repo": "code available on request",
+        "description": [
+          "Ripped markup from Django based site and built a Middleman application (with yml data backend) for easier manipulation by non-technical team members"
+        ]
+      },
+      {
+        "project_name": "CFP Application",
+        "project_url": "http://rubycentral-cfp.herokuapp.com/events/rubyconf2014",
+        "repo": "[repo](https://github.com/rubycentral/cfp-app)",
+        "description": [
+          "See description below in 'Professional Experience' for details"
+        ]
+      },
+      {
+        "project_name": "DairyV.com",
+        "project_url": "http://www.dairyv.com",
+        "repo": "[repo](https://github.com/charlie-dairyv/dairyvsite)",
+        "description": [
+          "sliced &#8680; styled &#8680; deployed"
+        ]
+      }
+    ]
+    },
+    "experience": {
+    "items": [
+      {
+        "title": "Developer",
+        "organisation": "Haught Codeworks",
+        "location": "Remote",
+        "from": "Nov. 2013",
+        "to": "Current",
+        "details": [
+          "HiddenGenius - Owned the frontend. Slicing and retrofit with some significant UI and UX improvements. Swapped Bootstrap for Bourbon, Bitters and Neat (swapped...lol)",
+          "ConfSkeleton - Sole developer of a conference specific CMS to support Ruby Central conference websites",
+          "CFP application -  Created wireframes and served as the primary developer on our team for the life of the product. Worked on all facets of the appliaction",
+          "Initially hired as a developer apprentice"
+        ],
+        "technology_used": {
+          "tools": [
+            "Rails on Rails,",
+            "HAML/SCSS,",
+            "JQuery,",
+            "Bourbon/Bitters/Neat"
+          ]
+        }
+      },
+      {
+        "title": "Freelance Projects",
+        "organization": "",
+        "location": "",
+        "from": "Jan. 2014",
+        "to": "Current",
+        "details": [
+          "San Diego RubyConf 2014 site creator/maintainer",
+          "Chicago RailsConf 2014 site creator/maintainer",
+          "Rafflecopter Jobs page conversion - Middleman app",
+          "DairyV slice and style"
+        ],
+        "technology_used": {
+          "tools": [
+            "Rails on Rails,",
+            "Middleman,",
+            "HAML/SCSS,",
+            "JQuery,",
+            "Bourbon/Neat/Bitters,",
+            "Bootstrap"
+          ]
+        }
+      },
+      {
+        "title": "Developer",
+        "organisation": "PivotDesk",
+        "location": "Boulder, CO",
+        "from": "June 2012",
+        "to": "Aug. 2013",
+        "details": [
+          "Contributed to the development and upkeep of PivotDesk's Ruby on Rails application"
+        ],
+        "technology_used": {
+          "tools": [
+            "Rails on Rails,",
+            "HAML/SCSS,",
+            "JQuery"
+          ]
+        }
+      },
+      {
+        "title": "Junior Developer",
+        "organisation": "Travelers Haven",
+        "location": "Denver, CO",
+        "from": "Feb. 2012",
+        "to": "June 2012",
+        "details": [
+          "Assisted with Ruby on Rails application development and project management",
+          "Focused on frontend development"
+        ],
+        "technology_used": {
+          "tools": [
+            "Rails on Rails,",
+            "HTML/CSS,",
+            "Bootstrap,",
+            "JQuery"
+          ]
+        }
+      },
+      {
+        "title": "Head Logistics and Program Coordinator",
+        "organisation": "Outward Bound",
+        "location": "Bend, OR",
+        "from": "June 2007",
+        "to": "Oct. 2012",
+        "details": [
+          "Managed and acted as interim director of educational technical expeditions in Idaho and Oregon. Instructed and facilitated programs, performed on-site and remote supervision of 14 employees, maintained of vehicle fleet, and coordinated food and equipment logistics. Prior to HLPC position instructed, and worked logistics"
+        ],
+        "technology_used": {
+          "tools": [
+            "Ford F350,",
+            "Dual axle trailer,",
+            "Commercial Warehouse,",
+            "Commercial Kitchen"
+          ]
+        }
+      }
+    ]
+  },
+    "skills": {
+    "details": [
+      {
+        "type": "Languages",
+        "items": [
+          "Ruby,",
+          "JavaScript,",
+          "HAML,",
+          "SCSS"
+        ]
+      },
+      {
+        "type": "Web Frameworks",
+        "items": [
+          "Ruby on Rails,",
+          "Middleman,",
+          "Jquery"
+        ]
+      },
+      {
+        "type": "Tools",
+        "items": [
+          "Vim",
+          "Chrome Developer Tools,",
+          "Adobe Photoshop,",
+          "Adobe Illustrator,",
+          "Bootstrap,",
+          "Bourbon/Neat/Bitters"
+        ]
+      }
+    ]
+  },
+    "education": {
+    "show_gpa": false,
+    "schools": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Adventure Education",
+        "institution": "Prescott College",
+        "graduation_year": 2007
+      }
+    ]
+  },
+    "community_involvement": {
+    "items": [
+      "Volunteer for Rubyconf 2013 & 2014 - Various Roles",
+      "Volunteer for GoGaRuCo 2014 - Site maintenance and updates",
+      "Volunteer for Railsconf 2013 & 2014 - Various Roles",
+      "RailsBridge Fall 2012 - Tutor",
+      "Code Reading Club - Cofounder",
+      "Developer (aka Nerd) Book Club - Organizer"
+    ]
+  }
+  }
+}

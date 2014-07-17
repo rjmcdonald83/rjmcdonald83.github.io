@@ -1,0 +1,120 @@
+{{#settings}}
+	{{#glyphicons}}
+		<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css" />
+		<script>document.getElementById('github-png').innerHTML = '<img src="public/images/github.png" style="width:22px"></img> ';
+		</script>
+	{{/glyphicons}}
+{{/settings}}
+<link rel="stylesheet" type="text/css" href="public/css/screen.css" />
+<div id="page">
+{{#bio_data}}
+	<div class="contact-details">
+		{{#email}}
+      {{email}}<br/>
+		{{/email}}
+		{{#phone}}
+		{{phone}}<br/>
+		{{/phone}}
+		{{#twitter}}
+		<a href="https://twitter.com/{{twitter}}"> @{{twitter}}</a>
+		<br/>
+		{{/twitter}}
+		{{#website}}
+		<a href="{{website}}"> {{website}}</a>
+		{{/website}}
+	</div>
+
+	<h1 class="emphnext">{{firstname}} {{familyname}}</h1><br/>
+	{{#stars}}
+	<span class="stars">
+		 {{#items}}
+		 {{name}} {{^last}}<span class="glyphicon glyphicon-star-empty"></span>{{/last}}
+		 {{/items}}
+	</span>
+	{{/stars}}
+	<br/>
+
+	{{#summary}}
+	<h2><span class="glyphicon glyphicon-flag"></span> Qualification Summary</h2>
+	<ul>
+		{{#points}}
+		<li>{{{.}}}</li>
+		{{/points}}
+	</ul>
+	{{/summary}}
+
+	{{#github_projects}}
+	<h2><span class="glyphicon glyphicon-tasks"></span>Recent Projects</h2>
+	<ul>
+	{{#details}}
+		<li><a href="{{project_url}}">{{project_name}}</a>
+		{{#repo}} &raquo; {{{repo}}}{{/repo}}
+			<ul>
+				{{#description}}
+				<li>{{{.}}}</li>
+				{{/description}}
+			</ul>
+		</li>
+	{{/details}}
+	</ul>
+	{{/github_projects}}
+
+
+	{{#experience}}
+	<h2><span class="glyphicon glyphicon-briefcase"></span> Professional Experience</h2>
+	<ul>
+		{{#items}}
+		<li>{{title}}{{#organisation}} at {{{organisation}}}{{/organisation}}{{#location}}, {{{location}}}{{/location}}
+			<span class="right">{{from}} &#8211; {{to}}</span>
+			<ul>
+				{{#details}}
+				<li>{{{.}}}</li>
+				{{/details}}
+				{{#technology_used}}
+				<li>Stack:
+					{{#tools}}
+					<span class="label label-default">{{name}}</span>
+					{{/tools}}
+				</li>
+				{{/technology_used}}
+			</ul>
+		</li>
+		{{/items}}
+	</ul>
+	{{/experience}}
+
+	{{#skills}}
+	<h2><span class="glyphicon glyphicon-wrench"></span>Technical Skills</h2>
+	<ul class="languages">
+		{{#details}}
+		<li>{{type}}:
+			{{#items}}
+			<span class="label label-default">{{name}}</span>
+			{{/items}}
+		</li>
+		{{/details}}
+	</ul>
+	{{/skills}}
+
+	{{#education}}
+	<h2><span class="glyphicon glyphicon-book"></span>Education</h2>
+    <ul>
+		{{#schools}}
+      <li>
+        {{degree}} in {{major}} at {{institution}} - {{graduation_year}}
+      </li>
+		{{/schools}}
+    </ul>
+	{{/education}}
+
+	{{#community_involvement}}
+	<h2><span class="glyphicon glyphicon-tree-deciduous"></span>Community Involvement</h2>
+	<ul>
+		{{#items}}
+		<li>{{{.}}}</li>
+		{{/items}}
+	</ul>
+	{{/community_involvement}}
+
+{{/bio_data}}
+</div><!-- End Page -->
